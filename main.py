@@ -1,3 +1,5 @@
+import os
+
 tabela_periodica = {
     "H": {
 "nome": "Hidrogênio",
@@ -100,271 +102,288 @@ tabela_periodica = {
 "periodo": 2
 },
 "Np": {
-"nome": "Elemento93",
-"massa_atomica": 146.5,
+"nome": "Neptunium",
+"massa_atomica": 236.98,
 "numero_protons": 93,
 "numero_eletrons": 93,
 "simbolo": "Np",
 "numero_atomico": 93,
-"grupo": 4,
-"periodo": 6
+"grupo": 7,
+"periodo": 7
 },
 "Pu": {
-"nome": "Elemento94",
-"massa_atomica": 147.0,
+"nome": "Plutónio",
+"massa_atomica": 244.05,
 "numero_protons": 94,
 "numero_eletrons": 94,
 "simbolo": "Pu",
 "numero_atomico": 94,
-"grupo": 5,
-"periodo": 6
+"grupo": 8,
+"periodo": 7
 },
 "Am": {
-"nome": "Elemento95",
-"massa_atomica": 147.5,
+"nome": "Armerício",
+"massa_atomica": 242.93,
 "numero_protons": 95,
 "numero_eletrons": 95,
 "simbolo": "Am",
 "numero_atomico": 95,
-"grupo": 6,
-"periodo": 6
+"grupo": 9,
+"periodo": 7
 },
 "Cm": {
-"nome": "Elemento96",
-"massa_atomica": 148.0,
+"nome": "Cúrio",
+"massa_atomica": 247.09,
 "numero_protons": 96,
 "numero_eletrons": 96,
 "simbolo": "Cm",
 "numero_atomico": 96,
-"grupo": 7,
-"periodo": 6
+"grupo": 10,
+"periodo": 7
 },
 "Bk": {
-"nome": "Elemento97",
-"massa_atomica": 148.5,
+"nome": "Berquélio",
+"massa_atomica": 247.07,
 "numero_protons": 97,
 "numero_eletrons": 97,
 "simbolo": "Bk",
 "numero_atomico": 97,
-"grupo": 8,
-"periodo": 6
+"grupo": 11,
+"periodo": 7
 },
 "Cf": {
-"nome": "Elemento98",
-"massa_atomica": 149.0,
+"nome": "Califórnio",
+"massa_atomica": 250.51,
 "numero_protons": 98,
 "numero_eletrons": 98,
 "simbolo": "Cf",
 "numero_atomico": 98,
-"grupo": 9,
-"periodo": 6
+"grupo": 12,
+"periodo": 7
 },
 "Es": {
-"nome": "Elemento99",
-"massa_atomica": 149.5,
+"nome": "Einstênio",
+"massa_atomica": 252.97,
 "numero_protons": 99,
 "numero_eletrons": 99,
 "simbolo": "Es",
 "numero_atomico": 99,
-"grupo": 10,
-"periodo": 6
+"grupo": 13,
+"periodo": 7
 },
 "Fm": {
-"nome": "Elemento100",
-"massa_atomica": 150.0,
+"nome": "Férmio",
+"massa_atomica": 256.89,
 "numero_protons": 100,
 "numero_eletrons": 100,
 "simbolo": "Fm",
 "numero_atomico": 100,
-"grupo": 11,
-"periodo": 6
+"grupo": 14,
+"periodo": 7
 },
 "Md": {
-"nome": "Elemento101",
-"massa_atomica": 150.5,
+"nome": "Mendelévio",
+"massa_atomica": 258.78,
 "numero_protons": 101,
 "numero_eletrons": 101,
 "simbolo": "Md",
 "numero_atomico": 101,
-"grupo": 12,
-"periodo": 6
+"grupo": 15,
+"periodo": 7
 },
 "No": {
-"nome": "Elemento102",
-"massa_atomica": 151.0,
+"nome": "Nobéli",
+"massa_atomica": 260.67,
 "numero_protons": 102,
 "numero_eletrons": 102,
 "simbolo": "No",
 "numero_atomico": 102,
-"grupo": 13,
-"periodo": 6
+"grupo": 16,
+"periodo": 7
 },
 "Lr": {
-"nome": "Elemento103",
-"massa_atomica": 151.5,
+"nome": "Laurê",
+"massa_atomica": 264.86,
 "numero_protons": 103,
 "numero_eletrons": 103,
 "simbolo": "Lr",
 "numero_atomico": 103,
-"grupo": 14,
-"periodo": 6
+"grupo": 17,
+"periodo": 7
 },
 "Rf": {
-"nome": "Elemento104",
-"massa_atomica": 152.0,
+"nome": "Rutherfórdio",
+"massa_atomica": 266.32,
 "numero_protons": 104,
 "numero_eletrons": 104,
 "simbolo": "Rf",
 "numero_atomico": 104,
-"grupo": 15,
-"periodo": 6
+"grupo": 4,
+"periodo": 7
 },
 "Db": {
-"nome": "Elemento105",
-"massa_atomica": 152.5,
+"nome": "Dúbni",
+"massa_atomica": 268.14,
 "numero_protons": 105,
 "numero_eletrons": 105,
 "simbolo": "Db",
 "numero_atomico": 105,
-"grupo": 16,
-"periodo": 6
+"grupo": 5,
+"periodo": 7
 },
 "Sg": {
-"nome": "Elemento106",
-"massa_atomica": 153.0,
+"nome": "Seabór",
+"massa_atomica": 270.48,
 "numero_protons": 106,
 "numero_eletrons": 106,
 "simbolo": "Sg",
 "numero_atomico": 106,
-"grupo": 17,
-"periodo": 6
+"grupo": 6,
+"periodo": 7
 },
 "Bh": {
-"nome": "Elemento107",
-"massa_atomica": 153.5,
+"nome": "Bóhrio",
+"massa_atomica": 270.92,
 "numero_protons": 107,
 "numero_eletrons": 107,
 "simbolo": "Bh",
 "numero_atomico": 107,
-"grupo": 18,
-"periodo": 6
+"grupo": 7,
+"periodo": 7
 },
 "Hs": {
-"nome": "Elemento108",
-"massa_atomica": 154.0,
+"nome": "Hássio",
+"massa_atomica": 275.38,
 "numero_protons": 108,
 "numero_eletrons": 108,
 "simbolo": "Hs",
 "numero_atomico": 108,
-"grupo": 1,
+"grupo": 8,
 "periodo": 7
 },
 "Mt": {
-"nome": "Elemento109",
-"massa_atomica": 154.5,
+"nome": "Meitnério",
+"massa_atomica": 278.13,
 "numero_protons": 109,
 "numero_eletrons": 109,
 "simbolo": "Mt",
 "numero_atomico": 109,
-"grupo": 2,
+"grupo": 9,
 "periodo": 7
 },
 "Ds": {
-"nome": "Elemento110",
-"massa_atomica": 155.0,
+"nome": "Darmstádtio",
+"massa_atomica": 282.57,
 "numero_protons": 110,
 "numero_eletrons": 110,
 "simbolo": "Ds",
 "numero_atomico": 110,
-"grupo": 3,
+"grupo": 10,
 "periodo": 7
 },
 "Rg": {
-"nome": "Elemento111",
-"massa_atomica": 155.5,
+"nome": "Roentgênio",
+"massa_atomica": 283.08,
 "numero_protons": 111,
 "numero_eletrons": 111,
 "simbolo": "Rg",
 "numero_atomico": 111,
-"grupo": 4,
+"grupo": 11,
 "periodo": 7
 },
 "Cn": {
-"nome": "Elemento112",
-"massa_atomica": 156.0,
+"nome": "Copernício",
+"massa_atomica": 286.09,
 "numero_protons": 112,
 "numero_eletrons": 112,
 "simbolo": "Cn",
 "numero_atomico": 112,
-"grupo": 5,
+"grupo": 12,
 "periodo": 7
 },
 "Nh": {
-"nome": "Elemento113",
-"massa_atomica": 156.5,
+"nome": "Nihônio",
+"massa_atomica": 287.99,
 "numero_protons": 113,
 "numero_eletrons": 113,
 "simbolo": "Nh",
 "numero_atomico": 113,
-"grupo": 6,
+"grupo": 13,
 "periodo": 7
 },
 "Fl": {
-"nome": "Elemento114",
-"massa_atomica": 157.0,
+"nome": "Fleróvio",
+"massa_atomica": 290.21,
 "numero_protons": 114,
 "numero_eletrons": 114,
 "simbolo": "Fl",
 "numero_atomico": 114,
-"grupo": 7,
+"grupo": 14,
 "periodo": 7
 },
 "Mc": {
-"nome": "Elemento115",
-"massa_atomica": 157.5,
+"nome": "Moscóvio",
+"massa_atomica": 291.54,
 "numero_protons": 115,
 "numero_eletrons": 115,
 "simbolo": "Mc",
 "numero_atomico": 115,
-"grupo": 8,
+"grupo": 15,
 "periodo": 7
 },
 "Lv": {
-"nome": "Elemento116",
-"massa_atomica": 158.0,
+"nome": "Livermório",
+"massa_atomica": 292.47,
 "numero_protons": 116,
 "numero_eletrons": 116,
 "simbolo": "Lv",
 "numero_atomico": 116,
-"grupo": 9,
+"grupo": 16,
 "periodo": 7
 },
 "Ts": {
-"nome": "Elemento117",
-"massa_atomica": 158.5,
+"nome": "Tenesso",
+"massa_atomica": 293.73,
 "numero_protons": 117,
 "numero_eletrons": 117,
 "simbolo": "Ts",
 "numero_atomico": 117,
-"grupo": 10,
+"grupo": 17,
 "periodo": 7
 },
 "Og": {
-"nome": "Elemento118",
-"massa_atomica": 159.0,
+"nome": "Oganessônio",
+"massa_atomica": 295.21,
 "numero_protons": 118,
 "numero_eletrons": 118,
 "simbolo": "Og",
 "numero_atomico": 118,
-"grupo": 11,
+"grupo": 18,
 "periodo": 7
 },
 }
 
+def menuPrincipal():
+    print(" ------------------------------ \nEscolha uma das alternativas \nMostrar Elemento (1)")
+
+def exibirElemento(elemento_escolido):
+    print(tabela_periodica[elemento_escolido])
+
+
 def main():
 
-    print('Ola Mundo!')
+    menuPrincipal()
+    a = int(input())
+    os.system('clear')
+    
+    while a != 1:
+        menuPrincipal()
+        a = int(input())
+        os.system('clear')
+
+    if a == 1:
+        elemento = input("Qual elemento você quer?\n")
+        exibirElemento(elemento_escolido=elemento)
 
 
-
-    main()
+main()
